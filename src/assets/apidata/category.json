@@ -1,0 +1,18 @@
+[
+    {
+        "id": 100,
+        "category": "Rings"
+    },
+    {
+        "id": 101,
+        "category": "Necklace"
+    },
+    {
+        "id": 102,
+        "category": "Earring"
+    },
+    {
+        "id": 103,
+        "category": "Chain"
+    }
+]

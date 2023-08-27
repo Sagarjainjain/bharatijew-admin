@@ -1,0 +1,15 @@
+.custominput {
+    padding: 0.75rem 0rem 0.75rem 0rem;
+    flex: 1;
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid lightgray;
+    outline: 0;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.no_margin {
+    margin-bottom: 0;
+}

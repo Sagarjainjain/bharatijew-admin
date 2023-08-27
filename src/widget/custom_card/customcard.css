@@ -1,0 +1,7 @@
+.customcard {
+    font-family: var(--font-family);
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

@@ -1,0 +1,121 @@
+.bannerinput {
+  display: flex;
+  width: 50%;
+  height: 250px;
+  padding: 0.5rem 0.5rem;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.bannerinput-file_input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 2px dashed var(--var-highlight);
+  background-color: aliceblue;
+}
+.input-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bannerinput-images {
+  height: 100%;
+  width: 40%;
+  
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  
+}
+.bannerinput-images-image {
+  display: flex;
+  height: 100px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin: 5px 0;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px 0px;
+}
+.bannerinput-images-image img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+}
+.cancel-icon {
+  z-index: 1;
+    transform: translateY(-10px);
+}
+.banner-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+    width: 60%;
+    background-color: aliceblue;
+      border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 5px 5px;
+  border: 2px dashed var(--var-highlight);
+}
+.banner-image button {
+  position: absolute;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  background-color: var(--var-highlight);
+}
+.banner-image button:hover {
+  background-color: #b69b00;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.banner-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media screen and (min-width: 501px) and (max-width: 1000px) {
+      .bannerinput {
+    flex-direction: column;
+    width: 90%;
+  }
+  .bannerinput-file_input {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    width: 100%;
+  }
+  .bannerinput-images {
+    width: 100%;
+  }
+  .banner-image {
+    height: 40%;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 10px) and (max-width: 500px) {
+  .bannerinput {
+    flex-direction: column;
+    width: 90%;
+  }
+  .bannerinput-file_input {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    width: 100%;
+  }
+  .bannerinput-images {
+    width: 100%;
+  }
+    .banner-image {
+        border-radius: 5px;
+        padding: 0;
+    height: 40%;
+    width: 100%;
+  }
+}

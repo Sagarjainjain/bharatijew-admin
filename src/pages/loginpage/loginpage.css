@@ -1,0 +1,57 @@
+.loginpage-container {
+    height: 100vh;
+    background-color: var(--var-secondary);
+}
+
+.loginpage-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 1rem;
+    background-color: var(--var-secondary);
+    /* background-color: white; */
+}
+.loginpage-card_media {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+.loginpage-card_logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.loginpage-card_form {
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 50%;
+    gap: 1rem;
+}
+.loginpage-card_form button {
+    width: 150px;
+    padding: 0.75rem 0;
+    background-color: #ffd700;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+@media screen and (min-width: 10px) and (max-width: 480px) {
+    form {
+        width: 100%;
+    }
+}

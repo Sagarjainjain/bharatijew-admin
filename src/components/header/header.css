@@ -1,0 +1,98 @@
+.header-container {
+
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.header-container_rate {
+  flex: 1;
+  /* width: 50%; */
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  gap: 10px;
+  font-family: var(--font-family);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.header-container_rate-gold {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.header-container_rate-gold_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header-container_rate-gold_footer button {
+  padding: 0.75rem 1rem;
+  margin-left: 10px;
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  background-color: var(--var-highlight);
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.header-container_rate-gold_footer button:hover {
+  background-color: #fde03f;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.header-container_rate-gold_title {
+    margin-bottom: 5px;
+}
+.header-container_tags {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.header_tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 5px; 
+  background-color: darkgray;
+  border-radius: 15px;
+  gap: 1px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-right: 10px;
+}
+.header_tag p {
+  font-size: 14px;
+  margin-right: 5px;
+  color: black;
+}
+.header-container-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .header-container {
+    /* flex-direction: column; */
+    gap: 1rem;
+  }
+  .header-container_rate {
+    width: 90%;
+  }
+  
+}
+@media screen and (min-width: 10px) and (max-width: 480px) {
+  .header-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .header-container_rate {
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+  }
+  .header-container_rate-gold {
+    width: 100%;
+  }
+}

@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AddProduct from './pages/addproduct/addproduct';
+import AdminPanel from './pages/adminpanel/adminpanel';
+import LoginPage from './pages/loginpage/loginpage';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
+  const user = JSON.parse(localStorage.getItem("profile"));
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={user  ? <Navigate to={"/admin"} /> : <LoginPage />}
+        />
+
+        <Route
+          path="/admin"
+          element={user ?<AdminPanel /> : <Navigate to={"/"} />  }
+        />
+        <Route
+          path="admin/add"
+          element={user == null ? <Navigate to={"/"} /> : <AddProduct />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

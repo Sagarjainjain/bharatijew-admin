@@ -1,0 +1,57 @@
+.extrainput-container {
+    justify-content: space-around;
+    font-family: var(--font-family);
+    gap: 1rem;
+}
+#form-category {
+    width: 100%;
+    
+} 
+
+.extrainput-container_card-input  {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.extrainput-container_card-input button {
+    outline: 0;
+    border: 0;
+    padding: 0.75rem 1rem;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: var(--var-highlight);
+}
+.extrainput-container_card {
+    width: 300px;
+    padding: 0.75rem 2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+}
+.category_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.icon-delete {
+    color: #E34234;
+}
+.icon-delete:hover {
+    color: tomato;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+} 
+
+@media screen and (min-width: 10px) and (max-width: 500px) {
+    .extrainput-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .extrainput-container_card {
+        width: 80%;
+    }
+}

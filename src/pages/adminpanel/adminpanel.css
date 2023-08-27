@@ -1,0 +1,37 @@
+.adminpanel-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    background-color: var(--var-secondary);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.adminpanel-navbar h1 {
+    color: white;
+}
+.adminpanel-navbar p {
+    margin-left: 2px;
+    color: var(--var-highlight);
+}
+.adminpanel-navbar button {
+    padding:0.5rem 1rem ;
+    font-size: 16px;
+    letter-spacing: 1px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 500;
+}
+@media screen and (min-width: 10px) and (max-width: 480px) {
+    .adminpanel-navbar {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .adminpanel-navbar h1 {
+        font-size: 22px;
+    }
+    .adminpanel-navbar button {
+        padding: 0.45rem 0.750rem;
+        font-size: 16px;
+    }
+}

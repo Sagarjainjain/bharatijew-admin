@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1501845813,
+        "melting": 75,
+          "category_type": "Rings",
+        "image": "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/z/ZGR00109_779.jpg",
+        "weight": 15.10
+    },
+    {
+        "id": 1501854815,
+        "melting": 75,
+        "category_type": "Rings",
+        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdvbGQlMjByaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "weight": 19.62
+    },
+    {
+        "id": 1501854481,
+        "melting": 75,
+          "category_type": "Rings",
+        "image": "https://images.unsplash.com/photo-1603561596973-8166e9e089d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdvbGQlMjByaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "weight": 20.87
+    },
+    {
+        "id": 15018451515,
+        "melting": 75,
+          "category_type": "Rings",
+        "image": "https://images.unsplash.com/photo-1588254915202-2bd60ddab5b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdvbGQlMjByaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "weight": 22.78
+    },
+    {
+        "id": 150184586,
+        "melting": 75,
+          "category_type": "Rings",
+        "image": "https://cf-cdn.pcjeweller.com/public/uploads/catalog/product/custom/z/ZGR00109_779.jpg",
+        "weight": 15.10
+    },
+    {
+        "id": 1501854878,
+        "melting": 75,
+        "category_type": "Rings",
+        "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGdvbGQlMjByaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "weight": 19.62
+    },
+    {
+        "id": 15018544909,
+        "melting": 75,
+          "category_type": "Rings",
+        "image": "https://images.unsplash.com/photo-1603561596973-8166e9e089d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdvbGQlMjByaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "weight": 20.87
+    },
+    {
+        "id": 15018451097,
+        "melting": 75,
+          "category_type": "Rings",
+        "image": "https://images.unsplash.com/photo-1588254915202-2bd60ddab5b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGdvbGQlMjByaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+        "weight": 22.78
+    }
+
+]
